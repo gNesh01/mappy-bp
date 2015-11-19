@@ -1,0 +1,36 @@
+/*
+Error: Invalid CSS after "$mappy-queries": expected selector or at-rule, was ": ("
+        on line 20 of C:\Users\goran.neskovic\Documents\NetBeansProjects\HTML5Application\public_html\scss\style.scss
+
+15:   small: 480px,
+16:   large: 800px
+17: )
+18: 
+19: // You can use and valid arguments inserted into mappy-bp as the map values. Any of the following would do
+20: $mappy-queries: (
+21:   phone: mappy-bp(h max-height small), // media all and (max-height: 29.9375em)
+22:   tablet: mappy-bp(small large), // @media all and (min-width 30em) and (max-width: 49.375em)
+23:   desktop: mappy-bp(960px 1200px), // media all and (min-width: 60em) and (max-width: 74.9375em)
+24:   change-type: mappy-bp(small, type: screen) // media screen and (min-width: 30em)
+25: )
+
+Backtrace:
+C:\Users\goran.neskovic\Documents\NetBeansProjects\HTML5Application\public_html\scss\style.scss:20
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/scss/parser.rb:1161:in `expected'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/scss/parser.rb:1097:in `expected'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/scss/parser.rb:43:in `parse'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/engine.rb:403:in `_to_tree'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/engine.rb:295:in `render_with_sourcemap'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/exec/sass_scss.rb:412:in `run'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/exec/base.rb:52:in `parse'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/exec/base.rb:19:in `parse!'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.19/bin/sass:13:in `<top (required)>'
+C:/Ruby22/bin/sass:23:in `load'
+C:/Ruby22/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"$mappy-queries\": expected selector or at-rule, was \": (\"\A         on line 20 of C:\Users\goran.neskovic\Documents\NetBeansProjects\HTML5Application\public_html\scss\style.scss\A \A 15:   small: 480px,\A 16:   large: 800px\A 17: )\A 18: \A 19: // You can use and valid arguments inserted into mappy-bp as the map values. Any of the following would do\A 20: $mappy-queries: (\A 21:   phone: mappy-bp(h max-height small), // media all and (max-height: 29.9375em)\A 22:   tablet: mappy-bp(small large), // @media all and (min-width 30em) and (max-width: 49.375em)\A 23:   desktop: mappy-bp(960px 1200px), // media all and (min-width: 60em) and (max-width: 74.9375em)\A 24:   change-type: mappy-bp(small, type: screen) // media screen and (min-width: 30em)\A 25: )"; }
